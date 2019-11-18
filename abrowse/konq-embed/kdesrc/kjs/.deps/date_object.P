@@ -1,0 +1,58 @@
+date_object.lo date_object.o : date_object.cpp ../../../config.h /include/sys/time.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ /include/time.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /include/bits/time.h /ainc/posix/time.h /ainc/posix/types.h \
+ /include/bits/types.h /include/sys/select.h /include/bits/select.h \
+ /include/bits/sigset.h /include/math.h /include/bits/huge_val.h \
+ /include/bits/mathdef.h /include/bits/mathcalls.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h \
+ /include/bits/mathinline.h /include/string.h /include/stdio.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h \
+ /include/libio.h /include/_G_config.h /include/bits/stdio_lim.h \
+ /include/bits/stdio.h /include/locale.h kjs.h date_object.h object.h \
+ /include/stdlib.h /include/sys/types.h /include/endian.h \
+ /include/bits/endian.h /include/sys/sysmacros.h /include/alloca.h \
+ ustring.h function.h /include/assert.h types.h
+date_object.cpp :
+../../../config.h :
+/include/sys/time.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/include/time.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/include/bits/time.h :
+/ainc/posix/time.h :
+/ainc/posix/types.h :
+/include/bits/types.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/math.h :
+/include/bits/huge_val.h :
+/include/bits/mathdef.h :
+/include/bits/mathcalls.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h :
+/include/bits/mathinline.h :
+/include/string.h :
+/include/stdio.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h :
+/include/libio.h :
+/include/_G_config.h :
+/include/bits/stdio_lim.h :
+/include/bits/stdio.h :
+/include/locale.h :
+kjs.h :
+date_object.h :
+object.h :
+/include/stdlib.h :
+/include/sys/types.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+ustring.h :
+function.h :
+/include/assert.h :
+types.h :

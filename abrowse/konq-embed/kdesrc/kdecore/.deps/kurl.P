@@ -1,0 +1,98 @@
+kurl.lo kurl.o : kurl.cpp kurl.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h /include/string.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qvaluelist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qdatastream.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qiodevice.h \
+ ../../dropin/kdebug.h ../../dropin/kglobal.h ../../dropin/kinstance.h \
+ ../../dropin/kapp.h /include/stdlib.h /include/sys/types.h \
+ /include/bits/types.h /include/time.h /include/endian.h \
+ /include/bits/endian.h /include/sys/select.h /include/bits/select.h \
+ /include/bits/sigset.h /include/sys/sysmacros.h /include/alloca.h \
+ /include/sys/stat.h /include/bits/stat.h /ainc/posix/stat.h \
+ /ainc/posix/types.h /include/stdio.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h \
+ /include/libio.h /include/_G_config.h /include/bits/stdio_lim.h \
+ /include/bits/stdio.h /include/assert.h /include/ctype.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qurl.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qdir.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qstrlist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qlist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qglist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcollection.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfileinfo.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfile.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qdatetime.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qstringlist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qregexp.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qtextcodec.h kcharsets.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfont.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/../../konq-embed/dropin/atheos/afont.h
+kurl.cpp :
+kurl.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h :
+/include/string.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qvaluelist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qdatastream.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qiodevice.h :
+../../dropin/kdebug.h :
+../../dropin/kglobal.h :
+../../dropin/kinstance.h :
+../../dropin/kapp.h :
+/include/stdlib.h :
+/include/sys/types.h :
+/include/bits/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+/include/sys/stat.h :
+/include/bits/stat.h :
+/ainc/posix/stat.h :
+/ainc/posix/types.h :
+/include/stdio.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h :
+/include/libio.h :
+/include/_G_config.h :
+/include/bits/stdio_lim.h :
+/include/bits/stdio.h :
+/include/assert.h :
+/include/ctype.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qurl.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qdir.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qstrlist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qlist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qglist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcollection.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfileinfo.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfile.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qdatetime.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qstringlist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qregexp.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qtextcodec.h :
+kcharsets.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfont.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/../../konq-embed/dropin/atheos/afont.h :

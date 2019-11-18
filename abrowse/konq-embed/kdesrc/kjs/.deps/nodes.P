@@ -1,0 +1,56 @@
+nodes.lo nodes.o : nodes.cpp /include/assert.h /include/features.h \
+ /include/sys/cdefs.h /include/gnu/stubs.h /include/stdio.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h \
+ /include/bits/types.h /include/libio.h /include/_G_config.h \
+ /include/bits/stdio_lim.h /include/bits/stdio.h /include/math.h \
+ /include/bits/huge_val.h /include/bits/mathdef.h \
+ /include/bits/mathcalls.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h \
+ /include/bits/mathinline.h kjs.h ustring.h ../../../config.h lexer.h \
+ nodes.h internal.h object.h /include/stdlib.h /include/sys/types.h \
+ /include/time.h /include/endian.h /include/bits/endian.h \
+ /include/sys/select.h /include/bits/select.h /include/bits/sigset.h \
+ /include/sys/sysmacros.h /include/alloca.h function.h types.h \
+ debugger.h operations.h regexp_object.h
+nodes.cpp :
+/include/assert.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/include/stdio.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h :
+/include/bits/types.h :
+/include/libio.h :
+/include/_G_config.h :
+/include/bits/stdio_lim.h :
+/include/bits/stdio.h :
+/include/math.h :
+/include/bits/huge_val.h :
+/include/bits/mathdef.h :
+/include/bits/mathcalls.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h :
+/include/bits/mathinline.h :
+kjs.h :
+ustring.h :
+../../../config.h :
+lexer.h :
+nodes.h :
+internal.h :
+object.h :
+/include/stdlib.h :
+/include/sys/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+function.h :
+types.h :
+debugger.h :
+operations.h :
+regexp_object.h :

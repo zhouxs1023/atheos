@@ -1,0 +1,37 @@
+function.lo function.o : function.cpp function.h /include/assert.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ object.h /include/stdlib.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /include/sys/types.h /include/bits/types.h /include/time.h \
+ /include/endian.h /include/bits/endian.h /include/sys/select.h \
+ /include/bits/select.h /include/bits/sigset.h \
+ /include/sys/sysmacros.h /include/alloca.h ustring.h \
+ ../../../config.h types.h kjs.h internal.h operations.h nodes.h \
+ debugger.h
+function.cpp :
+function.h :
+/include/assert.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+object.h :
+/include/stdlib.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/include/sys/types.h :
+/include/bits/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+ustring.h :
+../../../config.h :
+types.h :
+kjs.h :
+internal.h :
+operations.h :
+nodes.h :
+debugger.h :

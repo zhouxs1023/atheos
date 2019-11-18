@@ -1,0 +1,45 @@
+math_object.lo math_object.o : math_object.cpp /include/math.h /include/features.h \
+ /include/sys/cdefs.h /include/gnu/stubs.h /include/bits/huge_val.h \
+ /include/bits/mathdef.h /include/bits/mathcalls.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h \
+ /include/bits/mathinline.h /include/stdlib.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /include/sys/types.h /include/bits/types.h /include/time.h \
+ /include/endian.h /include/bits/endian.h /include/sys/select.h \
+ /include/bits/select.h /include/bits/sigset.h \
+ /include/sys/sysmacros.h /include/alloca.h kjs.h types.h object.h \
+ ustring.h ../../../config.h operations.h math_object.h function.h \
+ /include/assert.h lookup.h math_object.lut.h
+math_object.cpp :
+/include/math.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/include/bits/huge_val.h :
+/include/bits/mathdef.h :
+/include/bits/mathcalls.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h :
+/include/bits/mathinline.h :
+/include/stdlib.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/include/sys/types.h :
+/include/bits/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+kjs.h :
+types.h :
+object.h :
+ustring.h :
+../../../config.h :
+operations.h :
+math_object.h :
+function.h :
+/include/assert.h :
+lookup.h :
+math_object.lut.h :

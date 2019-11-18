@@ -1,0 +1,2 @@
+render_applet.lo render_applet.o : render_applet.cpp
+render_applet.cpp :

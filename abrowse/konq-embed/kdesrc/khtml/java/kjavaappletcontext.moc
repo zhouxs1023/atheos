@@ -1,0 +1,152 @@
+/****************************************************************************
+** KJavaAppletContext meta object code from reading C++ file 'kjavaappletcontext.h'
+**
+** Created: Mon Jul 16 03:06:16 2001
+**      by: The Qt MOC ($Id: qt/src/moc/moc.y   2.3.0   edited 2001-02-20 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#define Q_MOC_OUTPUT_REVISION 9
+#elif Q_MOC_OUTPUT_REVISION != 9
+#error "Moc format conflict - please regenerate all moc files"
+#endif
+
+#include "kjavaappletcontext.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+
+
+const char *KJavaAppletContext::className() const
+{
+    return "KJavaAppletContext";
+}
+
+QMetaObject *KJavaAppletContext::metaObj = 0;
+
+void KJavaAppletContext::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(QObject::className(), "QObject") != 0 )
+	badSuperclassWarning("KJavaAppletContext","QObject");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString KJavaAppletContext::tr(const char* s)
+{
+    return qApp->translate( "KJavaAppletContext", s, 0 );
+}
+
+QString KJavaAppletContext::tr(const char* s, const char * c)
+{
+    return qApp->translate( "KJavaAppletContext", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* KJavaAppletContext::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) QObject::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    typedef void (KJavaAppletContext::*m1_t0)(const QString&,const QStringList&);
+    typedef void (QObject::*om1_t0)(const QString&,const QStringList&);
+    m1_t0 v1_0 = &KJavaAppletContext::received;
+    om1_t0 ov1_0 = (om1_t0)v1_0;
+    QMetaData *slot_tbl = QMetaObject::new_metadata(1);
+    QMetaData::Access *slot_tbl_access = QMetaObject::new_metaaccess(1);
+    slot_tbl[0].name = "received(const QString&,const QStringList&)";
+    slot_tbl[0].ptr = (QMember)ov1_0;
+    slot_tbl_access[0] = QMetaData::Protected;
+    typedef void (KJavaAppletContext::*m2_t0)(const QString&);
+    typedef void (QObject::*om2_t0)(const QString&);
+    typedef void (KJavaAppletContext::*m2_t1)(const QString&,const QString&);
+    typedef void (QObject::*om2_t1)(const QString&,const QString&);
+    m2_t0 v2_0 = &KJavaAppletContext::showStatus;
+    om2_t0 ov2_0 = (om2_t0)v2_0;
+    m2_t1 v2_1 = &KJavaAppletContext::showDocument;
+    om2_t1 ov2_1 = (om2_t1)v2_1;
+    QMetaData *signal_tbl = QMetaObject::new_metadata(2);
+    signal_tbl[0].name = "showStatus(const QString&)";
+    signal_tbl[0].ptr = (QMember)ov2_0;
+    signal_tbl[1].name = "showDocument(const QString&,const QString&)";
+    signal_tbl[1].ptr = (QMember)ov2_1;
+    metaObj = QMetaObject::new_metaobject(
+	"KJavaAppletContext", "QObject",
+	slot_tbl, 1,
+	signal_tbl, 2,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}
+
+// SIGNAL showStatus
+void KJavaAppletContext::showStatus( const QString& t0 )
+{
+    activate_signal_strref( "showStatus(const QString&)", t0 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL showDocument
+void KJavaAppletContext::showDocument( const QString& t0, const QString& t1 )
+{
+    // No builtin function for signal parameter type const QString&,const QString&
+    QConnectionList *clist = receivers("showDocument(const QString&,const QString&)");
+    if ( !clist || signalsBlocked() )
+	return;
+    typedef void (QObject::*RT0)();
+    typedef void (QObject::*RT1)(const QString&);
+    typedef void (QObject::*RT2)(const QString&,const QString&);
+    RT0 r0;
+    RT1 r1;
+    RT2 r2;
+    QConnectionListIt it(*clist);
+    QConnection   *c;
+    QSenderObject *object;
+    while ( (c=it.current()) ) {
+	++it;
+	object = (QSenderObject*)c->object();
+	object->setSender( this );
+	switch ( c->numArgs() ) {
+	    case 0:
+#ifdef Q_FP_CCAST_BROKEN
+		r0 = reinterpret_cast<RT0>(*(c->member()));
+#else
+		r0 = (RT0)*(c->member());
+#endif
+		(object->*r0)();
+		break;
+	    case 1:
+#ifdef Q_FP_CCAST_BROKEN
+		r1 = reinterpret_cast<RT1>(*(c->member()));
+#else
+		r1 = (RT1)*(c->member());
+#endif
+		(object->*r1)(t0);
+		break;
+	    case 2:
+#ifdef Q_FP_CCAST_BROKEN
+		r2 = reinterpret_cast<RT2>(*(c->member()));
+#else
+		r2 = (RT2)*(c->member());
+#endif
+		(object->*r2)(t0, t1);
+		break;
+	}
+    }
+}

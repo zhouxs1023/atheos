@@ -1,0 +1,2 @@
+dcopobject.lo dcopobject.o : dcopobject.cpp
+dcopobject.cpp :

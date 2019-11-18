@@ -1,0 +1,60 @@
+global_object.lo global_object.o : global_object.cpp /include/stdio.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h \
+ /include/bits/types.h /include/libio.h /include/_G_config.h \
+ /include/bits/stdio_lim.h /include/bits/stdio.h /include/string.h \
+ kjs.h object.h /include/stdlib.h /include/sys/types.h /include/time.h \
+ /include/endian.h /include/bits/endian.h /include/sys/select.h \
+ /include/bits/select.h /include/bits/sigset.h \
+ /include/sys/sysmacros.h /include/alloca.h ustring.h \
+ ../../../config.h operations.h internal.h function.h \
+ /include/assert.h types.h lexer.h nodes.h debugger.h object_object.h \
+ function_object.h array_object.h bool_object.h string_object.h \
+ number_object.h math_object.h date_object.h regexp_object.h \
+ error_object.h
+global_object.cpp :
+/include/stdio.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h :
+/include/bits/types.h :
+/include/libio.h :
+/include/_G_config.h :
+/include/bits/stdio_lim.h :
+/include/bits/stdio.h :
+/include/string.h :
+kjs.h :
+object.h :
+/include/stdlib.h :
+/include/sys/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+ustring.h :
+../../../config.h :
+operations.h :
+internal.h :
+function.h :
+/include/assert.h :
+types.h :
+lexer.h :
+nodes.h :
+debugger.h :
+object_object.h :
+function_object.h :
+array_object.h :
+bool_object.h :
+string_object.h :
+number_object.h :
+math_object.h :
+date_object.h :
+regexp_object.h :
+error_object.h :

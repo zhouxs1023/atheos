@@ -1,0 +1,36 @@
+htmlhashes.lo htmlhashes.o : htmlhashes.cpp htmlhashes.h ../xml/dom_stringimpl.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h /include/string.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ ../dom/dom_misc.h khtmllayout.h htmlattrs.h ../dom/dom_string.h \
+ htmltags.h htmltags.c htmlattrs.c
+htmlhashes.cpp :
+htmlhashes.h :
+../xml/dom_stringimpl.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h :
+/include/string.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+../dom/dom_misc.h :
+khtmllayout.h :
+htmlattrs.h :
+../dom/dom_string.h :
+htmltags.h :
+htmltags.c :
+htmlattrs.c :

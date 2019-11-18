@@ -1,0 +1,2 @@
+kaction.lo kaction.o : kaction.cpp
+kaction.cpp :

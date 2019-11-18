@@ -1,0 +1,95 @@
+html_image.lo html_image.o : html_image.cpp dom_string.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h /include/string.h \
+ /include/features.h /include/sys/cdefs.h /include/gnu/stubs.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ html_image.h ../dom/html_element.h ../dom/dom_element.h \
+ ../dom/dom_node.h ../dom/css_value.h ../dom/dom_string.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcolor.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qwindowdefs.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qobjectdefs.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qnamespace.h \
+ /include/limits.h /include/bits/posix1_lim.h \
+ /include/bits/local_lim.h /ainc/posix/limits.h \
+ /include/bits/posix2_lim.h /usr/glibc2/include/limits.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/limits.h \
+ ../html/html_imageimpl.h ../html/html_inlineimpl.h \
+ ../html/html_elementimpl.h ../xml/dom_elementimpl.h \
+ ../xml/dom_nodeimpl.h ../dom/dom_misc.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qlist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qglist.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qcollection.h \
+ ../html/htmltoken.h ../misc/stringit.h ../xml/dom_stringimpl.h \
+ dom_misc.h ../misc/khtmllayout.h ../html/dtd.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qregion.h \
+ ../../kdecore/../../../konq-embed/dropin/atheos/aregion.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qrect.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qsize.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qpoint.h \
+ /atheos/src/apps/abrowse/qt-2.3.0/include/qpointarray.h html_misc.h \
+ ../html/html_miscimpl.h ../misc/htmlhashes.h ../misc/htmlattrs.h \
+ ../misc/htmltags.h
+html_image.cpp :
+dom_string.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcstring.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qgarray.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qshared.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qglobal.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qfeatures.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qconfig.h :
+/include/string.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+html_image.h :
+../dom/html_element.h :
+../dom/dom_element.h :
+../dom/dom_node.h :
+../dom/css_value.h :
+../dom/dom_string.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcolor.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qwindowdefs.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qobjectdefs.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qnamespace.h :
+/include/limits.h :
+/include/bits/posix1_lim.h :
+/include/bits/local_lim.h :
+/ainc/posix/limits.h :
+/include/bits/posix2_lim.h :
+/usr/glibc2/include/limits.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/limits.h :
+../html/html_imageimpl.h :
+../html/html_inlineimpl.h :
+../html/html_elementimpl.h :
+../xml/dom_elementimpl.h :
+../xml/dom_nodeimpl.h :
+../dom/dom_misc.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qlist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qglist.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qcollection.h :
+../html/htmltoken.h :
+../misc/stringit.h :
+../xml/dom_stringimpl.h :
+dom_misc.h :
+../misc/khtmllayout.h :
+../html/dtd.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qregion.h :
+../../kdecore/../../../konq-embed/dropin/atheos/aregion.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qrect.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qsize.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qpoint.h :
+/atheos/src/apps/abrowse/qt-2.3.0/include/qpointarray.h :
+html_misc.h :
+../html/html_miscimpl.h :
+../misc/htmlhashes.h :
+../misc/htmlattrs.h :
+../misc/htmltags.h :

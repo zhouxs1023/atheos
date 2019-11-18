@@ -1,0 +1,140 @@
+utils.o: utils.cpp /ainc/gui/bitmap.h /ainc/atheos/types.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /ainc/posix/types.h /ainc/gui/guidefines.h /ainc/gui/region.h \
+ /ainc/gui/gfxtypes.h /ainc/gui/rect.h /ainc/gui/point.h \
+ /include/math.h /include/features.h /include/sys/cdefs.h \
+ /include/gnu/stubs.h /include/bits/huge_val.h /include/bits/mathdef.h \
+ /include/bits/mathcalls.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h \
+ /include/bits/mathinline.h /ainc/util/locker.h /include/stdio.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h \
+ /include/bits/types.h /include/libio.h /include/_G_config.h \
+ /include/bits/stdio_lim.h /include/bits/stdio.h /include/errno.h \
+ /include/bits/errno.h /ainc/posix/errno.h /include/sys/debug.h \
+ /ainc/atheos/semaphore.h /ainc/atheos/threads.h \
+ /ainc/atheos/typedefs.h /ainc/atheos/atomic.h /ainc/storage/file.h \
+ /ainc/storage/seekableio.h /ainc/storage/streamableio.h \
+ /include/sys/types.h /include/time.h /include/endian.h \
+ /include/bits/endian.h /include/sys/select.h /include/bits/select.h \
+ /include/bits/sigset.h /include/sys/sysmacros.h \
+ /ainc/storage/fsnode.h /ainc/atheos/filesystem.h \
+ /ainc/atheos/fs_attribs.h /ainc/atheos/kernel.h /ainc/atheos/kdebug.h \
+ /ainc/atheos/stdlib.h /ainc/atheos/schedule.h /ainc/atheos/timer.h \
+ /ainc/posix/resource.h /ainc/posix/time.h /ainc/atheos/v86.h \
+ /ainc/atheos/areas.h /include/dirent.h /include/bits/dirent.h \
+ /ainc/posix/dirent.h /ainc/posix/stat.h /ainc/posix/fcntl.h \
+ /ainc/posix/uio.h /include/sys/stat.h /include/bits/stat.h \
+ /include/fcntl.h /include/bits/fcntl.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/string \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/bastring.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cstddef \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/straits.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cctype \
+ /include/ctype.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cstring \
+ /include/string.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/alloc.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_config.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_alloc.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/iostream.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/streambuf.h \
+ /include/stdlib.h /include/alloca.h /include/assert.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/iterator \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_relops.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_iterator.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/bastring.cc \
+ /ainc/util/exceptions.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/exception \
+ /ainc/translation/translator.h utils.h
+utils.cpp :
+/ainc/gui/bitmap.h :
+/ainc/atheos/types.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/ainc/posix/types.h :
+/ainc/gui/guidefines.h :
+/ainc/gui/region.h :
+/ainc/gui/gfxtypes.h :
+/ainc/gui/rect.h :
+/ainc/gui/point.h :
+/include/math.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/include/bits/huge_val.h :
+/include/bits/mathdef.h :
+/include/bits/mathcalls.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/float.h :
+/include/bits/mathinline.h :
+/ainc/util/locker.h :
+/include/stdio.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stdarg.h :
+/include/bits/types.h :
+/include/libio.h :
+/include/_G_config.h :
+/include/bits/stdio_lim.h :
+/include/bits/stdio.h :
+/include/errno.h :
+/include/bits/errno.h :
+/ainc/posix/errno.h :
+/include/sys/debug.h :
+/ainc/atheos/semaphore.h :
+/ainc/atheos/threads.h :
+/ainc/atheos/typedefs.h :
+/ainc/atheos/atomic.h :
+/ainc/storage/file.h :
+/ainc/storage/seekableio.h :
+/ainc/storage/streamableio.h :
+/include/sys/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/ainc/storage/fsnode.h :
+/ainc/atheos/filesystem.h :
+/ainc/atheos/fs_attribs.h :
+/ainc/atheos/kernel.h :
+/ainc/atheos/kdebug.h :
+/ainc/atheos/stdlib.h :
+/ainc/atheos/schedule.h :
+/ainc/atheos/timer.h :
+/ainc/posix/resource.h :
+/ainc/posix/time.h :
+/ainc/atheos/v86.h :
+/ainc/atheos/areas.h :
+/include/dirent.h :
+/include/bits/dirent.h :
+/ainc/posix/dirent.h :
+/ainc/posix/stat.h :
+/ainc/posix/fcntl.h :
+/ainc/posix/uio.h :
+/include/sys/stat.h :
+/include/bits/stat.h :
+/include/fcntl.h :
+/include/bits/fcntl.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/string :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/bastring.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cstddef :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/straits.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cctype :
+/include/ctype.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/cstring :
+/include/string.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/alloc.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_config.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_alloc.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/iostream.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/streambuf.h :
+/include/stdlib.h :
+/include/alloca.h :
+/include/assert.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/iterator :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_relops.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/stl_iterator.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/../../../../include/g++-3/std/bastring.cc :
+/ainc/util/exceptions.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/exception :
+/ainc/translation/translator.h :
+utils.h :

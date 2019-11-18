@@ -1,0 +1,37 @@
+error_object.lo error_object.o : error_object.cpp kjs.h operations.h object.h \
+ /include/stdlib.h /include/features.h /include/sys/cdefs.h \
+ /include/gnu/stubs.h \
+ /usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h \
+ /include/sys/types.h /include/bits/types.h /include/time.h \
+ /include/endian.h /include/bits/endian.h /include/sys/select.h \
+ /include/bits/select.h /include/bits/sigset.h \
+ /include/sys/sysmacros.h /include/alloca.h ustring.h \
+ ../../../config.h types.h internal.h function.h /include/assert.h \
+ error_object.h debugger.h
+error_object.cpp :
+kjs.h :
+operations.h :
+object.h :
+/include/stdlib.h :
+/include/features.h :
+/include/sys/cdefs.h :
+/include/gnu/stubs.h :
+/usr/gcc295/lib/gcc-lib/i386-any-atheos/2.95.2/include/stddef.h :
+/include/sys/types.h :
+/include/bits/types.h :
+/include/time.h :
+/include/endian.h :
+/include/bits/endian.h :
+/include/sys/select.h :
+/include/bits/select.h :
+/include/bits/sigset.h :
+/include/sys/sysmacros.h :
+/include/alloca.h :
+ustring.h :
+../../../config.h :
+types.h :
+internal.h :
+function.h :
+/include/assert.h :
+error_object.h :
+debugger.h :
