@@ -1,2 +1,4 @@
 # atheos
-AtheOS is a new operating system developed by Kurt Skauen under the GPL licence. 
+AtheOS is a new operating system developed by Kurt Skauen under the GPL licence. It does not have any true text mode but terminal emulators are possible. Up till now it is available only for x86 processors, SMP and multithreading are supported. Besides UNIX characteristics it supports POSIX to large parts and builds up on a new user interface and a new designed file system. The 64-bit file system AFS has journaling functions. The monolithic kernel was modularized designed. UNIX related applications like bash and CLI tools were ported, AtheOS itself is programmed in C++. Both desktop systems and web servers are intended purpose by the TCP/IP support. 
+
+In meanwhile everything points to the shut down of the AtheOS project, perhaps it is developed further in the future. After all, since the last release have passed several years. 
